@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>pwenker.github.io/</link>
-    <description>Recent content on </description>
+    <title>Chessli on </title>
+    <link>pwenker.github.io/posts/chess/chessli/</link>
+    <description>Recent content in Chessli on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="pwenker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="pwenker.github.io/posts/chess/chessli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acknowledgments</title>
       <link>pwenker.github.io/posts/chess/chessli/acknowledgments/</link>
@@ -86,42 +86,6 @@ Demos CLI Demo (watch whole video on Youtube) Anki Cards Demo (watch whole video
 $ chessli [OPTIONS] COMMAND [ARGS]... Options:
  --user TEXT: Select a user name --install-completion: Install completion for the current shell. --show-completion: Show completion for the current shell, to copy it or customize the installation. --help: Show this message and exit.  Commands:
  games: Fetch and show games &amp;amp; find and ankify&amp;hellip; lichess: Get stats and infos from Lichess openings: Show and ankify chess openings tactics: Chessli Tactics &amp;amp; Puzzles  chessli games Fetch and show games &amp;amp; find and ankify mistakes</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_get_better_at_tactics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_get_better_at_tactics/</guid>
-      <description>How To Get Better at Tactics </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_improve_your_opening_repertoire/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_improve_your_opening_repertoire/</guid>
-      <description>How To Improve Your Opening Repertoire </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_learn_from_your_games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_learn_from_your_games/</guid>
-      <description>How To Learn From Your Games  title: learn menu: sidebar: name: learn identifier: chessli-how-to-learn parent: chessli-how-to weight: 300 Under Construction!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_use_chesslis_anki_cards/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_use_chesslis_anki_cards/</guid>
-      <description>How to use Chessli&amp;rsquo;s Anki Cards </description>
     </item>
     
   </channel>
