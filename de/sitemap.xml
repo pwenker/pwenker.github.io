@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>pwenker.com/de/categories/</loc>
+    <loc>pwenker.github.io/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="pwenker.com/categories/"
+                href="pwenker.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="pwenker.com/de/categories/"
+                href="pwenker.github.io/de/categories/"
                 />
   </url>
   
   <url>
-    <loc>pwenker.com/de/</loc>
+    <loc>pwenker.github.io/de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="pwenker.com/"
+                href="pwenker.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="pwenker.com/de/"
+                href="pwenker.github.io/de/"
                 />
   </url>
   
   <url>
-    <loc>pwenker.com/de/tags/</loc>
+    <loc>pwenker.github.io/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="pwenker.com/tags/"
+                href="pwenker.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="pwenker.com/de/tags/"
+                href="pwenker.github.io/de/tags/"
                 />
   </url>
   
