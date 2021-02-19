@@ -1,0 +1,70 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Machine Learning Engineer
+# your company information
+company:
+  name: NEXOCRAFT  
+  url: "https://nexocraft.com/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "My main research area is Artificial Intelligence, with a focus on Deep Reinforcement Learning. But I am also interested in other research fields, for example, Neuroscience & Learning theory: **I love learning!** In my free time, I enjoy a mix of hobbies, including playing chess, piano, reading books and doing mixed martial arts."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/pwenker"
+- name: Reddit
+  icon: "fab fa-reddit"
+  url: "https://www.reddit.com/user/pwenker/"
+- name: Reddit
+  icon: "fas fa-chess"
+  url: "https://lichess.org/@/pwenker"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/pascal-wenker-25a568125/"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "pwenker@posteo.de"
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://www.twitter.com/PascalWenker"
+- name: Youtube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/UCYxDcdFLW-AMoHEfh7pG-oA"
+
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: AI-Research
+  percentage: 100
+  color: blue
+- name: Software Dev.
+  percentage: 100
+  color: sky
+- name: ML-Eng.
+  percentage: 100
+  color: green
+- name: ML-Ops
+  percentage: 100
+  color: yellow
+- name: IoT
+  percentage: 100
+  color: orange
+- name: Learning
+  percentage: 100
+  color: pink

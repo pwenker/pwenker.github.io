@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Nexocraft GmbH
+    url: "https://nexocraft.com"
+    location: Bonn, Germany
+    overview: NEXOCRAFT is a pioneer in Machine Learning for industries.
+  positions:
+  - designation: Machine Learning Engineer
+    start: Apr 2019
+    responsibilities:
+    - AI Research & Development
+  - designation: Data Science Working Student
+    start: Sep 2016
+    end: Apr 2019
+    responsibilities:
+    - Machine Learning & Data Science and Visualization
