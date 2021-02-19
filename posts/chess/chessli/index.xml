@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chessli on Pascal&#39;s blog</title>
+    <link>pwenker.github.io/posts/chess/chessli/</link>
+    <description>Recent content in Chessli on Pascal&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="pwenker.github.io/posts/chess/chessli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acknowledgments</title>
+      <link>pwenker.github.io/posts/chess/chessli/acknowledgments/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/acknowledgments/</guid>
+      <description>Acknowledgments  Lichess:  A free, no-ads, open source chess server that let&amp;rsquo;s everyone play chess! I truly love it. Think about whether to become a patron! :)   Anki:  A free and open-source flashcard program using spaced-repetition, a technique from cognitive science for fast and long-lasting memorization. I couldn&amp;rsquo;t imagine learning without it anymore.   Anki Cards Design  The interactive chess functionality on the cards is taken from these fantastic cards.</description>
+    </item>
+    
+    <item>
+      <title>Basic Usage</title>
+      <link>pwenker.github.io/posts/chess/chessli/basic_usage/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/basic_usage/</guid>
+      <description>Basic Usage To get an overview of the basic CLI capabilities of Chessli, take a look at this short demo video I created (click on the image below to watch on youtube):
+Youtube-Video: CLI Demo 
+There is also a short video showing the chesslis Anki cards in action:
+Youtube-Video: Anki Cards Demo 
+ℹ️ I am in the midst of creating a comprehensive documentation that will be released with version 0.</description>
+    </item>
+    
+    <item>
+      <title>Chessli Overview</title>
+      <link>pwenker.github.io/posts/chess/chessli/home/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/home/</guid>
+      <description>Chessli A free and open-source CHESS improvement program that combines the power of Lichess and Anki.
+Demos CLI Demo (watch whole video on Youtube) Anki Cards Demo (watch whole video on Youtube) </description>
+    </item>
+    
+    <item>
+      <title>FAQs</title>
+      <link>pwenker.github.io/posts/chess/chessli/faqs/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/faqs/</guid>
+      <description>Frequently Answered Question </description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>pwenker.github.io/posts/chess/chessli/features/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/features/</guid>
+      <description>Features  Automatically fetch your games and played tactics puzzles from lichess via the berserk python client for the Lichess API.! Find your mistakes by parsing your games and analysing them with python-chess. Create a simple opening repertoire! Spaced repetition &amp;amp; Retrieval Practice: Automatically (via apy) add your game mistakes, your openings and your tackled lichess puzzles to Anki. More features on the way&amp;hellip;!  </description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>pwenker.github.io/posts/chess/chessli/getting_started/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/getting_started/</guid>
+      <description>Getting Started ℹ️ Information
+ At the moment, some technical expertise is needed to use Chessli. Starting with version 0.2, however, I will add an Anki-Addon to ease those technical hurdles. Also, please notice that this is a very early version, and some code parts are still rough on the edges. Further, there are still some opinionated parts and hard-coded choices:  For example, it is not possible to fetch more than 20 games at once (to not bug down Lichess).</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>pwenker.github.io/posts/chess/chessli/support/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/support/</guid>
+      <description>Support </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>pwenker.github.io/posts/chess/chessli/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>pwenker.github.io/posts/chess/chessli/cli/</guid>
+      <description>chessli Usage:
+$ chessli [OPTIONS] COMMAND [ARGS]... Options:
+ --user TEXT: Select a user name --install-completion: Install completion for the current shell. --show-completion: Show completion for the current shell, to copy it or customize the installation. --help: Show this message and exit.  Commands:
+ games: Fetch and show games &amp;amp; find and ankify&amp;hellip; lichess: Get stats and infos from Lichess openings: Show and ankify chess openings tactics: Chessli Tactics &amp;amp; Puzzles  chessli games Fetch and show games &amp;amp; find and ankify mistakes</description>
+    </item>
+    
+  </channel>
+</rss>

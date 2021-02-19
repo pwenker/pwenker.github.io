@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/acknowledgments/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/basic_usage/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/home/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/faqs/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/features/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/getting_started/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="pwenker.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="pwenker.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/support/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/cli/</loc>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_get_better_at_tactics/</loc>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_improve_your_opening_repertoire/</loc>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_learn_from_your_games/</loc>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/how_to_guides/how_to_use_chesslis_anki_cards/</loc>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="pwenker.github.io/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="pwenker.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/posts/chess/chessli/how_to_guides/</loc>
+  </url>
+  
+  <url>
+    <loc>pwenker.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="pwenker.github.io/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="pwenker.github.io/tags/"
+                />
+  </url>
+  
+</urlset>
