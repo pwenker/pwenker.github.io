@@ -19,6 +19,10 @@ markup:
     startLevel: 2
     endLevel: 6
     ordered: false
+    goldmark:
+      renderer:
+        unsafe: true
+
 
 # Enable Disqus forum
 disqusShortname: www-pwenker-com

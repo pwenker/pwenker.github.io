@@ -18,7 +18,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "My main research area is Artificial Intelligence, with a focus on Deep Reinforcement Learning. But I am also interested in other research fields, for example, Neuroscience & Learning theory: **I love learning!** In my free time, I enjoy a mix of hobbies, including playing chess, piano, reading books and doing mixed martial arts."
+summary: "My main research area is artificial intelligence, with a focus on deep reinforcement learning. But I am also interested in other research fields, for example, neuroscience & learning theory: **I love learning!** In my free time, I enjoy a mix of hobbies, including playing chess, piano, reading books and doing mixed martial arts."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -44,6 +44,9 @@ socialLinks:
 - name: Youtube
   icon: "fab fa-youtube"
   url: "https://www.youtube.com/channel/UCYxDcdFLW-AMoHEfh7pG-oA"
+- name: Goodreads
+  icon: "fab fa-goodreads"
+  url: "https://www.goodreads.com/pwenker"
 
 
 # your soft skills
@@ -62,7 +65,7 @@ softSkills:
 - name: ML-Ops
   percentage: 100
   color: yellow
-- name: IoT
+- name: Deep RL
   percentage: 100
   color: orange
 - name: Learning
