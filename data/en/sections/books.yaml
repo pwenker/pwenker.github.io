@@ -4,17 +4,6 @@ section:
   id: books
   enable: true
   weight: 8
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
-
-
-# your projects
-# certificates:
-# - name: Linux Foundation System Administrator
-#   logo: /images/sections/projects/kubernetes.png
-#   organization: Linux Foundation
-#   timeline: "March 2018 - Present"
-
-  #url: ""  # link of the certificate.
-  # overview: taught me how to manage linux systems can use markdown for images.
