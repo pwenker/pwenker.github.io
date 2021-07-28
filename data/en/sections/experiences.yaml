@@ -11,17 +11,34 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: inovex GmbH
+    url: "https://www.inovex.de/en/"
+    location: Cologne, Germany
+    overview: inovex is an IT project center driven by innovation and quality, focusing its services on ‘Digital Transformation’
+  positions:
+  - designation: Senior Data Scientist
+    start: Aug 2021
+    responsibilities:
+    - Upcoming
+- company:
     name: Nexocraft GmbH
     url: "https://nexocraft.com"
     location: Bonn, Germany
-    overview: NEXOCRAFT is a pioneer in Machine Learning for industries.
+    overview: Machine Learning for industries.
   positions:
   - designation: Machine Learning Engineer
     start: Apr 2019
+    end: Jul 2021
     responsibilities:
     - AI Research & Development
+- company:
+    name: Recogizer GmbH
+    url: "https://recogizer.com/en/"
+    location: Bonn, Germany
+    overview: Artificial Intelligence for HVAC in Real Estate
+  positions:
   - designation: Data Science Working Student
     start: Sep 2016
     end: Apr 2019
     responsibilities:
-    - Machine Learning & Data Science and Visualization
+    - Machine/Reinforcement Learning & Data Science and Visualization
