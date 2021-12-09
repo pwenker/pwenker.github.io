@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Senior Data Scientist
+designation: Senior Data Scientist / Data Engineer
 # your company information
 company:
   name: inovex  
@@ -18,7 +18,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "My main research area is artificial intelligence, with a focus on deep reinforcement learning. But I am also interested in other research fields, for example, neuroscience & learning theory: **I love learning!** In my free time, I enjoy a mix of hobbies, including playing chess, piano, reading books and practicing mixed martial arts."
+summary: "I am a professional software developer and machine learning engineer. My main research area is artificial intelligence, with a focus on deep reinforcement learning. But I am also interested in other research fields, for example, (cognitive) neuroscience & learning theory: *I love learning* ! In my free time, I enjoy a mix of hobbies, including playing chess, jazz piano, reading books and practicing mixed martial arts."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -29,7 +29,7 @@ socialLinks:
 - name: Reddit
   icon: "fab fa-reddit"
   url: "https://www.reddit.com/user/pwenker/"
-- name: Reddit
+- name: Lichess
   icon: "fas fa-chess"
   url: "https://lichess.org/@/pwenker"
 - name: Linkedin
@@ -53,21 +53,21 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: AI-Research
+- name: ML Engineer
   percentage: 100
   color: blue
-- name: Software Dev.
+- name: Data Scientist
   percentage: 100
   color: sky
-- name: ML-Eng.
+- name: Data Engineer
   percentage: 100
   color: green
-- name: ML-Ops
+- name: Software Developer
   percentage: 100
   color: yellow
-- name: Deep RL
+- name: Cognitive Scientist
   percentage: 100
   color: orange
-- name: Learning
+- name: Researcher
   percentage: 100
   color: pink

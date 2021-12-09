@@ -16,10 +16,10 @@ experiences:
     location: Cologne, Germany
     overview: inovex is an IT project center driven by innovation and quality, focusing its services on ‘Digital Transformation’
   positions:
-  - designation: Senior Data Scientist
+  - designation: Senior Data Scientist / Data Engineer
     start: Aug 2021
-    responsibilities:
-    - Upcoming
+    responsibilities: 
+    - Data Science & Data Engineering
 - company:
     name: Nexocraft GmbH
     url: "https://nexocraft.com"

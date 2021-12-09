@@ -8,9 +8,8 @@ section:
   # hideTitle: true
 
 
-# Your accomplishments
 accomplishments:
-- name: Udacity Dataengineering Nanodegree
+- name: Data Engineer Nanodegree
   timeline: "August 2021 - Nov 2021"
   organization:
     name: Udacity

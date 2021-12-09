@@ -13,51 +13,51 @@ section:
 skills:
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "My first and foremost language choice for both hobby projects and professional software development."
+  summary: "5+ years of professional programming experience"
   url: "https://www.python.org/"
 - name: PyTorch
   logo: /images/sections/skills/pytorch.png
-  summary: "Experienced in building deep learning models for research and production."
+  summary: "Building state-of-the-art deep learning models for research and production"
   url: "https://pytorch.org/"
-- name: Vim
+- name: (Neo)vim
   logo: /images/sections/skills/vim.gif
-  summary: "My favorite editor and programming environment. I like its speed and customizability."
+  summary: "Ninja-Editor. Unix is my IDE."
   url: "https://www.vim.org/"
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Experienced with (multi-stage) containerization of apps."
+  summary: "Using Docker for fast, easy and portable application development."
   url: "https://www.docker.com/"
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Both with Gitlab and Github."
+  summary: "Where there is code, there is version control."
   url: "https://git-scm.com/"
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system (Ubuntu). Capable of writing bash/shell scripts."
-- name: Apache Spark
-  logo: /images/sections/skills/apache-spark.svg
-  summary: ""
-- name: Apache Airflow
-  logo: /images/sections/skills/apache-airflow.png
-  summary: ""
-- name: Argo Workflows
-  logo: /images/sections/skills/argo-workflows.png
-  summary: ""
-- name: Apache Cassandra
-  logo: /images/sections/skills/apache-cassandra.png
-  summary: ""
+  summary: "Using Linux (Ubuntu) as my main OS :)"
 - name: FastAPI
   logo: /images/sections/skills/fastapi.svg
-  summary: ""
+  summary: "Experienced in building production-ready REST APIs"
 - name: PostgresSQL
   logo: /images/sections/skills/postgres-sql.png
-  summary: ""
-- name: Amazon Web Services
-  logo: /images/sections/skills/aws.svg
-  summary: ""
+  summary: "Experienced in data modeling with all kinds of RDBMS's"
+- name: Apache Cassandra
+  logo: /images/sections/skills/apache-cassandra.png
+  summary: "Experienced with NoSQL Databases"
+- name: Apache Spark
+  logo: /images/sections/skills/apache-spark.svg
+  summary: "I'm not afraid of Big Data"
+- name: Apache Airflow
+  logo: /images/sections/skills/apache-airflow.png
+  summary: "Creating, Scheduling, and Monitoring Workflows in Python"
+- name: Argo Workflows
+  logo: /images/sections/skills/argo-workflows.png
+  summary: "Creating, Scheduling, and Monitoring Workflows with YAML"
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: ""
+  summary: "Automating deployment, scaling, and management of containerized applications"
 - name: Google Cloud Platform
   logo: /images/sections/skills/gcp.png
-  summary: ""
+  summary: "Experienced in Cloud Computing with GCP"
+- name: Amazon Web Services
+  logo: /images/sections/skills/aws.svg
+  summary: "Experienced in Cloud Computing with AWS"
