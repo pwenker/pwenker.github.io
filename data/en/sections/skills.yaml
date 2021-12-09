@@ -34,3 +34,30 @@ skills:
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system (Ubuntu). Capable of writing bash/shell scripts."
+- name: Apache Spark
+  logo: /images/sections/skills/apache-spark.svg
+  summary: ""
+- name: Apache Airflow
+  logo: /images/sections/skills/apache-airflow.png
+  summary: ""
+- name: Argo Workflows
+  logo: /images/sections/skills/argo-workflows.png
+  summary: ""
+- name: Apache Cassandra
+  logo: /images/sections/skills/apache-cassandra.png
+  summary: ""
+- name: FastAPI
+  logo: /images/sections/skills/fastapi.svg
+  summary: ""
+- name: PostgresSQL
+  logo: /images/sections/skills/postgres-sql.png
+  summary: ""
+- name: Amazon Web Services
+  logo: /images/sections/skills/aws.svg
+  summary: ""
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: ""
+- name: Google Cloud Platform
+  logo: /images/sections/skills/gcp.png
+  summary: ""

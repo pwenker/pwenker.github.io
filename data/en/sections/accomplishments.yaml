@@ -1,0 +1,19 @@
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Udacity Dataengineering Nanodegree
+  timeline: "August 2021 - Nov 2021"
+  organization:
+    name: Udacity
+    url: https://www.udacity.com/course/data-engineer-nanodegree--nd027
+  courseOverview:  Learn to design data models, build data warehouses and data lakes, automate data pipelines, and work with massive datasets. At the end of the program, you’ll combine your new skills by completing a capstone project. 
+  certificateURL: "https://graduation.udacity.com/confirm/XGHAF7GK"

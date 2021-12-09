@@ -15,14 +15,21 @@ languages:
 
 # Control TOC depth
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   tableOfContents:
     startLevel: 2
     endLevel: 6
     ordered: false
-    goldmark:
-      renderer:
-        unsafe: true
 
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 # Enable Disqus forum
 disqusShortname: www-pwenker-com
@@ -40,6 +47,7 @@ params:
     main: images/pw.png
     inverted: images/pw.png
     favicon: images/pw.png
+
   # GitHub repo URL of your site
   gitRepo: https://github.com/pwenker/pwenker.github.io
   gitBranch: main

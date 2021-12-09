@@ -1,15 +1,12 @@
 # some information about you
 name: "Pascal Wenker"
 nickname: "Pascal"
-# greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/profile.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "pwenker@posteo.de"
-  # phone: "+0123456789"
 
-# some summary about what you do
 summary:
   - Welcome to my website and blog!
   - Scroll down & enjoy your stay!
