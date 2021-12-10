@@ -14,5 +14,7 @@ accomplishments:
   organization:
     name: Udacity
     url: https://www.udacity.com/course/data-engineer-nanodegree--nd027
-  courseOverview:  Learn to design data models, build data warehouses and data lakes, automate data pipelines, and work with massive datasets. At the end of the program, you’ll combine your new skills by completing a capstone project. 
+  courseOverview: In this course I learned to (i) Create user-friendly relational and NoSQL data models (ii) Create scalable and efficient data warehouses (iii) Work efficiently with massive datasets (iv) Build and interact with a cloud-based data lake (v) Automate and monitor data pipelines (vi) Develop proficiency in Spark, Airflow, and AWS tool
   certificateURL: "https://graduation.udacity.com/confirm/XGHAF7GK"
+
+  # Learn to design data models, build data warehouses and data lakes, automate data pipelines, and work with massive datasets. At the end of the program, you’ll combine your new skills by completing a capstone project. 
