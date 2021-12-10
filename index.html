@@ -1,6 +1,6 @@
 <!doctype html><html lang=en>
 <head>
-<meta name=generator content="Hugo 0.86.0">
+<meta name=generator content="Hugo 0.90.0">
 <title>Pascal's blog</title>
 <meta name=description content="Portfolio and personal blog of Pascal Wenker.">
 <meta charset=utf-8>
@@ -8,12 +8,17 @@
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <link rel=stylesheet href=/css/bootstrap.min.css>
 <link rel=stylesheet href=/css/layouts/main.css>
-<link rel=stylesheet href=/css/style.css>
 <link rel=stylesheet href=/css/navigators/navbar.css>
+<link rel=stylesheet href=/css/plyr.css>
+<link rel=stylesheet href=/css/flag-icon.min.css>
 <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png>
-<link rel=stylesheet href=/css/style.css>
+<meta property="og:title" content="Pascal's blog">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Portfolio and personal blog of Pascal Wenker.">
+<meta property="og:image" content="https://pwenker.com/images/author/profile.png">
+<meta property="og:url" content="https://pwenker.com">
 <link rel=stylesheet href=/css/sections/home.css>
 <link rel=stylesheet href=/css/sections/about.css>
 <link rel=stylesheet href=/css/sections/skills.css>
@@ -22,13 +27,16 @@
 <link rel=stylesheet href=/css/sections/projects.css>
 <link rel=stylesheet href=/css/sections/recent-posts.css>
 <link rel=stylesheet href=/css/sections/achievements.css>
+<link rel=stylesheet href=/css/sections/accomplishments.css>
+<link rel=stylesheet href=/css/style.css>
 </head>
 <body data-spy=scroll data-target=#top-navbar data-offset=100>
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id=top-navbar>
 <div class=container>
 <a class=navbar-brand href=/>
-<img src=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png id=logo>Pascal's blog</a>
-<button class="navbar-toggler navbar-dark" id=navbar-toggler type=button data-toggle=collapse data-target=#top-nav-items>
+<img src=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png id=logo alt=Logo>
+Pascal's blog</a>
+<button class="navbar-toggler navbar-dark" id=navbar-toggler type=button data-toggle=collapse data-target=#top-nav-items aria-label=menu>
 <span class=navbar-toggler-icon></span>
 </button>
 <div class="collapse navbar-collapse" id=top-nav-items>
@@ -51,28 +59,27 @@
 <li class=nav-item>
 <a class=nav-link href=#projects>Projects</a>
 </li>
-<li class=nav-item>
-<a class=nav-link href=#recent-posts>Recent Posts</a>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a>
+<div class=dropdown-menu aria-labelledby=navbarDropdown>
+<a class=dropdown-item href=#accomplishments>Accomplishments</a>
+</div>
 </li>
-<li class=nav-item>
-<a class=nav-link href=#books>Books</a>
-</li>
-<div class=dropdown-divider id=top-navbar-divider></div>
 <li class=nav-item>
 <a class=nav-link id=blog-link href=/posts>Posts</a>
 </li>
 </ul>
 </div>
 </div>
-<img src=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png class=d-none id=main-logo>
-<img src=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png class=d-none id=inverted-logo>
+<img src=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/pw_hu9b5e8da1136cc35ff76802ed3b0b176a_6337_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo">
 </nav>
 <div class="container-fluid home" id=home>
 <style>#homePageBackgroundImageDivStyled{background-image:url(https://pwenker.com/images/bg2_huf97279350ae28e09faa0a6944c7771ac_4145133_500x0_resize_q75_box.JPG)}@media(min-width:500px) and (max-width:800px){#homePageBackgroundImageDivStyled{background-image:url(https://pwenker.com/images/bg2_huf97279350ae28e09faa0a6944c7771ac_4145133_800x0_resize_q75_box.JPG)}}@media(min-width:801px) and (max-width:1200px){#homePageBackgroundImageDivStyled{background-image:url(https://pwenker.com/images/bg2_huf97279350ae28e09faa0a6944c7771ac_4145133_1200x0_resize_q75_box.JPG)}}@media(min-width:1201px) and (max-width:1500px){#homePageBackgroundImageDivStyled{background-image:url(https://pwenker.com/images/bg2_huf97279350ae28e09faa0a6944c7771ac_4145133_1500x0_resize_q75_box.JPG)}}@media(min-width:1501px){#homePageBackgroundImageDivStyled{background-image:url(https://pwenker.com/images/bg2.JPG)}}</style>
 <span class=on-the-fly-behavior></span>
 <div id=homePageBackgroundImageDivStyled class="background container-fluid"></div>
 <div class="container content text-center">
-<img src=/images/author/profile_hu6ec071c52db2db7b9ad05ee875271072_335556_148x148_fit_box_3.png class="rounded-circle mx-auto d-block img-fluid">
+<img src=/images/author/profile_hu6ec071c52db2db7b9ad05ee875271072_335556_148x148_fit_box_3.png class="rounded-circle mx-auto d-block img-fluid" alt="Author Image">
 <h1 class=greeting> Hi, I am Pascal</h1>
 <div class=typing-carousel>
 <span id=ityped class=ityped></span>
@@ -82,7 +89,7 @@
 <li>Welcome to my website and blog!</li>
 <li>Scroll down & enjoy your stay!</li>
 </ul>
-<a href=#about><i class="arrow bounce fa fa-chevron-down"></i></a>
+<a href=#about aria-label="Read More - Pascal"><i class="arrow bounce fa fa-chevron-down"></i></a>
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-white">
@@ -91,37 +98,37 @@
 <div class=col-sm-6>
 <h3 class=p-1>Pascal Wenker</h3>
 <h5 class=p-1>
-Senior Data Scientist
-at <a href=https://www.inovex.de/en/>inovex</a>
+Senior Data Scientist / Data Engineer
+at <a href=https://www.inovex.de/en/ title=inovex target=_blank rel=noopener>inovex</a>
 </h5>
 <p class="p-1 text-justify">
-My main research area is artificial intelligence, with a focus on deep reinforcement learning. But I am also interested in other research fields, for example, neuroscience & learning theory: <strong>I love learning!</strong> In my free time, I enjoy a mix of hobbies, including playing chess, piano, reading books and practicing mixed martial arts.
+I am a professional software developer and machine learning engineer. My main research area is artificial intelligence, with a focus on deep reinforcement learning. But I am also interested in other research fields, for example, (cognitive) neuroscience & learning theory: <em>I love learning</em> ! In my free time, I enjoy a mix of hobbies, including playing chess, jazz piano, reading books and practicing mixed martial arts.
 </p>
 <div class="text-container ml-auto">
 <ul class="social-link d-flex">
 <li>
-<a href=https://www.github.com/pwenker target=/><i class="fab fa-github"></i></a>
+<a href=https://www.github.com/pwenker title=Github target=_blank rel=noopener><i class="fab fa-github"></i></a>
 </li>
 <li>
-<a href=https://www.reddit.com/user/pwenker/ target=/><i class="fab fa-reddit"></i></a>
+<a href=https://www.reddit.com/user/pwenker/ title=Reddit target=_blank rel=noopener><i class="fab fa-reddit"></i></a>
 </li>
 <li>
-<a href=https://lichess.org/@/pwenker target=/><i class="fas fa-chess"></i></a>
+<a href=https://lichess.org/@/pwenker title=Lichess target=_blank rel=noopener><i class="fas fa-chess"></i></a>
 </li>
 <li>
-<a href=https://www.linkedin.com/in/pascal-wenker-25a568125/ target=/><i class="fab fa-linkedin"></i></a>
+<a href=https://www.linkedin.com/in/pascal-wenker-25a568125/ title=Linkedin target=_blank rel=noopener><i class="fab fa-linkedin"></i></a>
 </li>
 <li>
-<a href=mailto:pwenker@posteo.de target=/><i class="fas fa-envelope"></i></a>
+<a href=mailto:pwenker@posteo.de title=Email target=_blank rel=noopener><i class="fas fa-envelope"></i></a>
 </li>
 <li>
-<a href=https://www.twitter.com/PascalWenker target=/><i class="fab fa-twitter"></i></a>
+<a href=https://www.twitter.com/PascalWenker title=Twitter target=_blank rel=noopener><i class="fab fa-twitter"></i></a>
 </li>
 <li>
-<a href=https://www.youtube.com/channel/UCYxDcdFLW-AMoHEfh7pG-oA target=/><i class="fab fa-youtube"></i></a>
+<a href=https://www.youtube.com/channel/UCYxDcdFLW-AMoHEfh7pG-oA title=Youtube target=_blank rel=noopener><i class="fab fa-youtube"></i></a>
 </li>
 <li>
-<a href=https://www.goodreads.com/pwenker target=/><i class="fab fa-goodreads"></i></a>
+<a href=https://www.goodreads.com/pwenker title=Goodreads target=_blank rel=noopener><i class="fab fa-goodreads"></i></a>
 </li>
 </ul>
 </div>
@@ -136,7 +143,7 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 <span class=circular-progress-right>
 <span class=circular-progress-bar></span>
 </span>
-<div class=circular-progress-value>AI-Research</div>
+<div class=circular-progress-value>ML Engineer</div>
 </div>
 </div>
 <div class="col-6 col-lg-4 p-2">
@@ -147,7 +154,7 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 <span class=circular-progress-right>
 <span class=circular-progress-bar></span>
 </span>
-<div class=circular-progress-value>Software Dev.</div>
+<div class=circular-progress-value>Data Scientist</div>
 </div>
 </div>
 <div class="col-6 col-lg-4 p-2">
@@ -158,7 +165,7 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 <span class=circular-progress-right>
 <span class=circular-progress-bar></span>
 </span>
-<div class=circular-progress-value>ML-Eng.</div>
+<div class=circular-progress-value>Data Engineer</div>
 </div>
 </div>
 <div class="col-6 col-lg-4 p-2">
@@ -169,7 +176,7 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 <span class=circular-progress-right>
 <span class=circular-progress-bar></span>
 </span>
-<div class=circular-progress-value>ML-Ops</div>
+<div class=circular-progress-value>Software Developer</div>
 </div>
 </div>
 <div class="col-6 col-lg-4 p-2">
@@ -180,7 +187,7 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 <span class=circular-progress-right>
 <span class=circular-progress-bar></span>
 </span>
-<div class=circular-progress-value>Deep RL</div>
+<div class=circular-progress-value>Cognitive Scientist</div>
 </div>
 </div>
 <div class="col-6 col-lg-4 p-2">
@@ -191,7 +198,7 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 <span class=circular-progress-right>
 <span class=circular-progress-bar></span>
 </span>
-<div class=circular-progress-value>Learning</div>
+<div class=circular-progress-value>Researcher</div>
 </div>
 </div>
 </div>
@@ -200,84 +207,202 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
-<div class="container-fluid anchor pb-5 skills-section" id=skills>
-<h1 class=text-center>Skills</h1>
+<div class="container-fluid anchor pb-5 skills-section">
+<h1 class=text-center>
+<span id=skills></span>Skills</h1>
 <div class="container d-flex-block">
 <div class=row id=primary-skills>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.python.org/>
+<a class=skill-card-link href=https://www.python.org/ title=Python target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/python.png alt=Python>
+<img class=card-img-xs src=/images/sections/skills/python_hu539e8bb5bc9c44fc163e63ffdf3b1885_3243_24x24_fit_box_3.png alt=Python>
 <h5 class=card-title>Python</h5>
 </div>
 <div class=card-body>
-<p class=card-text>My first and foremost language choice for both hobby projects and professional software development.</p>
+<p class=card-text>5+ years of professional programming experience</p>
 </div>
 </div>
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://pytorch.org/>
+<a class=skill-card-link href=https://pytorch.org/ title=PyTorch target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/pytorch.png alt=PyTorch>
+<img class=card-img-xs src=/images/sections/skills/pytorch_hu52ad3384fd78e018fa4c8c100b4e1348_22916_24x24_fit_box_3.png alt=PyTorch>
 <h5 class=card-title>PyTorch</h5>
 </div>
 <div class=card-body>
-<p class=card-text>Experienced in building deep learning models for research and production.</p>
+<p class=card-text>Building state-of-the-art deep learning models for research and production</p>
 </div>
 </div>
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.vim.org/>
+<a class=skill-card-link href=https://www.vim.org/ title=(Neo)vim target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/vim.gif alt=Vim>
-<h5 class=card-title>Vim</h5>
+<img class=card-img-xs src=/images/sections/skills/vim_hu8a0d800b0881e251ea8abbbe27b0ad50_295_24x24_fit_box.gif alt=(Neo)vim>
+<h5 class=card-title>(Neo)vim</h5>
 </div>
 <div class=card-body>
-<p class=card-text>My favorite editor and programming environment. I like its speed and customizability.</p>
+<p class=card-text>Ninja-Editor. Unix is my IDE.</p>
 </div>
 </div>
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.docker.com/>
+<a class=skill-card-link href=https://www.docker.com/ title=Docker target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
 <img class=card-img-xs src=/images/sections/skills/docker.svg alt=Docker>
 <h5 class=card-title>Docker</h5>
 </div>
 <div class=card-body>
-<p class=card-text>Experienced with (multi-stage) containerization of apps.</p>
+<p class=card-text>Using Docker for fast, easy and portable application development.</p>
 </div>
 </div>
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://git-scm.com/>
+<a class=skill-card-link href=https://git-scm.com/ title=Git target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/git.png alt=Git>
+<img class=card-img-xs src=/images/sections/skills/git_hu33f398e1ad21f48e87d6162a2f96a04c_26063_24x24_fit_box_3.png alt=Git>
 <h5 class=card-title>Git</h5>
 </div>
 <div class=card-body>
-<p class=card-text>Experienced with git-based development. Both with Gitlab and Github.</p>
+<p class=card-text>Where there is code, there is version control.</p>
 </div>
 </div>
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=javascript:void(0)>
+<a class=skill-card-link>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/linux.png alt=Linux>
+<img class=card-img-xs src=/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png alt=Linux>
 <h5 class=card-title>Linux</h5>
 </div>
 <div class=card-body>
-<p class=card-text>Using as the main operating system (Ubuntu). Capable of writing bash/shell scripts.</p>
+<p class=card-text>Using Linux (Ubuntu) as my main OS :)</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/fastapi.svg alt=FastAPI>
+<h5 class=card-title>FastAPI</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Experienced in building production-ready REST APIs</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/postgres-sql_hueddb17ff691d50c9e705a690d45a582c_24270_24x24_fit_box_3.png alt=PostgresSQL>
+<h5 class=card-title>PostgresSQL</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Experienced in data modeling with all kinds of RDBMS&rsquo;s</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/apache-cassandra_hu6ea8fc6f7a828db5e168a8cfe3499d2a_122397_24x24_fit_box_3.png alt="Apache Cassandra">
+<h5 class=card-title>Apache Cassandra</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Experienced with NoSQL Databases</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/apache-spark.svg alt="Apache Spark">
+<h5 class=card-title>Apache Spark</h5>
+</div>
+<div class=card-body>
+<p class=card-text>I&rsquo;m not afraid of Big Data</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/apache-airflow_hube355caad1cdcb55d4623623a39238e7_114057_24x24_fit_box_3.png alt="Apache Airflow">
+<h5 class=card-title>Apache Airflow</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Creating, Scheduling, and Monitoring Workflows in Python</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/argo-workflows_hua836cf4eb3bd003c59f1122e5a54b646_15788_24x24_fit_box_3.png alt="Argo Workflows">
+<h5 class=card-title>Argo Workflows</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Creating, Scheduling, and Monitoring Workflows with YAML</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/kubernetes_hu88a9ced9f4480bb2e5dab5f524914e91_87129_24x24_fit_box_3.png alt=Kubernetes>
+<h5 class=card-title>Kubernetes</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Automating deployment, scaling, and management of containerized applications</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/gcp_hucca1ae1fb1dda7a13f2592b2cb562459_10311_24x24_fit_box_3.png alt="Google Cloud Platform">
+<h5 class=card-title>Google Cloud Platform</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Experienced in Cloud Computing with GCP</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<img class=card-img-xs src=/images/sections/skills/aws.svg alt="Amazon Web Services">
+<h5 class=card-title>Amazon Web Services</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Experienced in Cloud Computing with AWS</p>
 </div>
 </div>
 </a>
@@ -287,8 +412,10 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-white">
-<div class="container-fluid anchor pb-5 experiences-section" id=experiences>
-<h1 class=text-center>Experience</h1>
+<div class="container-fluid anchor pb-5 experiences-section">
+<h1 class=text-center>
+<span id=experiences></span>Experience
+</h1>
 <div class="container timeline text-justify">
 <div class="row align-items-center d-flex">
 <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
@@ -296,8 +423,8 @@ My main research area is artificial intelligence, with a focus on deep reinforce
 </div>
 <div class="col-10 col-lg-8">
 <div class=experience-entry-heading>
-<h5>Senior Data Scientist</h5>
-<h6><a href=https://www.inovex.de/en/>inovex GmbH</a></h6>
+<h5>Senior Data Scientist / Data Engineer</h5>
+<h6><a href=https://www.inovex.de/en/ title="inovex GmbH" target=_blank rel=noopener>inovex GmbH</a></h6>
 <p class=text-muted>Aug 2021 - Present,
 Cologne, Germany
 </p>
@@ -305,7 +432,7 @@ Cologne, Germany
 <p>inovex is an IT project center driven by innovation and quality, focusing its services on ‘Digital Transformation’</p>
 <h6 class=text-muted>Responsibilities:</h6>
 <ul class=justify-content-around>
-<li>Upcoming</li>
+<li>Data Science & Data Engineering</li>
 </ul>
 </div>
 </div>
@@ -324,7 +451,7 @@ Cologne, Germany
 <div class="col-10 col-lg-8">
 <div class=experience-entry-heading>
 <h5>Machine Learning Engineer</h5>
-<h6><a href=https://nexocraft.com>Nexocraft GmbH</a></h6>
+<h6><a href=https://nexocraft.com title="Nexocraft GmbH" target=_blank rel=noopener>Nexocraft GmbH</a></h6>
 <p class=text-muted>Apr 2019 - Jul 2021,
 Bonn, Germany
 </p>
@@ -357,7 +484,7 @@ Bonn, Germany
 <div class="col-10 col-lg-8">
 <div class=experience-entry-heading>
 <h5>Data Science Working Student</h5>
-<h6><a href=https://recogizer.com/en/>Recogizer GmbH</a></h6>
+<h6><a href=https://recogizer.com/en/ title="Recogizer GmbH" target=_blank rel=noopener>Recogizer GmbH</a></h6>
 <p class=text-muted>Sep 2016 - Apr 2019,
 Bonn, Germany
 </p>
@@ -373,8 +500,9 @@ Bonn, Germany
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
-<div class="container-fluid anchor pb-5 education-section" id=education>
-<h1 class=text-center>Education</h1>
+<div class="container-fluid anchor pb-5 education-section">
+<h1 class=text-center>
+<span id=education></span>Education</h1>
 <div class=container>
 <table class=education-info-table>
 <tbody>
@@ -392,7 +520,7 @@ Bonn, Germany
 <div class="degree-info card">
 <div class=row>
 <div class="col-lg-10 col-md-8">
-<h5><a href=https://www.uni-bonn.de/the-university>University of Bonn</a></h5>
+<h5><a href=https://www.uni-bonn.de/the-university title="University of Bonn" target=_blank rel=noopener>University of Bonn</a></h5>
 </div>
 <div class="timeframe col-lg-2 col-md-4">2015-2019</div>
 </div>
@@ -422,7 +550,7 @@ Bonn, Germany
 <div class="degree-info card">
 <div class=row>
 <div class="col-lg-10 col-md-8">
-<h5><a href=https://www.uni-osnabrueck.de/en/home.html>Osnabrück University</a></h5>
+<h5><a href=https://www.uni-osnabrueck.de/en/home.html title="Osnabrück University" target=_blank rel=noopener>Osnabrück University</a></h5>
 </div>
 <div class="timeframe col-lg-2 col-md-4">2011-2015</div>
 </div>
@@ -450,26 +578,23 @@ Bonn, Germany
 <button type=button class="btn btn-dark" data-filter=all>
 All
 </button>
-<button type=button class="btn btn-dark" data-filter=python>
-Python
-</button>
-<button type=button class="btn btn-dark" data-filter=chess>
-Chess
+<button type=button class="btn btn-dark" data-filter=professional>
+Professional
 </button>
 <button type=button class="btn btn-dark" data-filter=research>
 Research
 </button>
-<button type=button class="btn btn-dark" data-filter=ai>
-Artificial Intelligence
+<button type=button class="btn btn-dark" data-filter=hobby>
+Hobby
 </button>
 </div>
 </div>
 <div class="container filtr-projects">
 <div class=row id=project-card-holder>
-<div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, python,chess">
+<div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, hobby,python,chess">
 <div class="card mt-1">
 <div class=card>
-<a class=card-header href=https://github.com/pwenker/chessli>
+<a class=card-header href=https://github.com/pwenker/chessli target=_blank rel=noopener>
 <div>
 <div class=d-flex>
 <img class=card-img-xs src=/images/sections/projects/chess-solid_hu017d032facaf1c0337c870e99c94c96e_2067_24x24_fit_box_3.png alt=Chessli>
@@ -483,17 +608,30 @@ Artificial Intelligence
 </a>
 <div class="card-body text-justify pt-1 pb-1">
 <p>An open-source and free chess training app.</p>
-<span class=float-right>
-<a class=github-button-inactive href=https://github.com/pwenker/chessli data-icon=octicon-standard data-show-count=true aria-label="Star Chessli">Star</a>
+<div class=project-card-footer>
+<div class=project-tags-holder>
+<span class="badge btn-info">
+hobby
+</span>
+<span class="badge btn-info">
+python
+</span>
+<span class="badge btn-info">
+chess
 </span>
 </div>
+<div class=project-btn-holder>
+<a class="github-button-inactive project-btn" href=https://github.com/pwenker/chessli data-icon=octicon-standard data-show-count=true aria-label="Star Chessli">Star</a>
 </div>
 </div>
 </div>
-<div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, research,ai">
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, hobby,research,ai,healthcare">
 <div class="card mt-1">
 <div class=card>
-<a class=card-header href=https://github.com/pwenker/ai_and_health>
+<a class=card-header href=https://github.com/pwenker/ai_and_health target=_blank rel=noopener>
 <div>
 <div class=d-flex>
 <img class=card-img-xs src=/images/sections/projects/heartbeat-solid_hu889dcce802e3ee3281ca53fad7ddc044_1738_24x24_fit_box_3.png alt="AI & Health">
@@ -507,9 +645,59 @@ Artificial Intelligence
 </a>
 <div class="card-body text-justify pt-1 pb-1">
 <p>Research repository for AI/ML in Healthcare and Medicine.</p>
-<span class=float-right>
-<a class=github-button-inactive href=https://github.com/pwenker/ai_and_health data-icon=octicon-standard data-show-count=true aria-label="Star AI & Health">Star</a>
+<div class=project-card-footer>
+<div class=project-tags-holder>
+<span class="badge btn-info">
+hobby
 </span>
+<span class="badge btn-info">
+research
+</span>
+<span class="badge btn-info">
+ai
+</span>
+<span class="badge btn-info">
+healthcare
+</span>
+</div>
+<div class=project-btn-holder>
+<a class="github-button-inactive project-btn" href=https://github.com/pwenker/ai_and_health data-icon=octicon-standard data-show-count=true aria-label="Star AI & Health">Star</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item" data-category="all, professional,data_engineering">
+<div class="card mt-1">
+<div class=card>
+<a class=card-header href=https://github.com/pwenker/data-engineering target=_blank rel=noopener>
+<div>
+<div class=d-flex>
+<img class=card-img-xs src=/images/sections/projects/heartbeat-solid_hu889dcce802e3ee3281ca53fad7ddc044_1738_24x24_fit_box_3.png alt="Data Engineering">
+<h5 class="card-title mb-0">Data Engineering</h5>
+</div>
+<div class=sub-title>
+<span>Owner</span>
+<span>Dec 2021 - Present</span>
+</div>
+</div>
+</a>
+<div class="card-body text-justify pt-1 pb-1">
+<p>Notes and summaries for Udacity&rsquo;s Data Engineer Nanodegree</p>
+<div class=project-card-footer>
+<div class=project-tags-holder>
+<span class="badge btn-info">
+professional
+</span>
+<span class="badge btn-info">
+data_engineering
+</span>
+</div>
+<div class=project-btn-holder>
+<a class="github-button-inactive project-btn" href=https://github.com/pwenker/data-engineering data-icon=octicon-standard data-show-count=true aria-label="Star Data Engineering">Star</a>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -519,96 +707,29 @@ Artificial Intelligence
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
-<div class="container-fluid anchor pb-5 recent-posts-section" id=recent-posts>
-<h1 class=text-center>Recent Posts</h1>
+<div class="container-fluid anchor pb-5 accomplishments-section">
+<h1 class=text-center>
+<span id=accomplishments></span>Accomplishments</h1>
 <div class=container>
-<div class=row id=recent-post-cards>
+<div class=row id=acomplishment-card-holder>
+<div class="col-md-12 col-lg-6 p-2">
+<div class="card mt-3">
+<div class=card-header>
+<h5 class="card-title mb-0">Data Engineer Nanodegree</h5>
+<div class=sub-title>
+<span><a href=https://www.udacity.com/course/data-engineer-nanodegree--nd027 title=Udacity target=_blank rel=noopener>Udacity</a></span>
+<span class=ml-2>August 2021 - Nov 2021</span>
+</div>
+</div>
+<div class=card-body>
+<p>In this course I learned to (i) Create user-friendly relational and NoSQL data models (ii) Create scalable and efficient data warehouses (iii) Work efficiently with massive datasets (iv) Build and interact with a cloud-based data lake (v) Automate and monitor data pipelines (vi) Develop proficiency in Spark, Airflow, and AWS tool</p>
+</div>
+<div class=card-footer>
+<a class="btn btn-outline-info ml-1 pl-2 mb-2" href=https://graduation.udacity.com/confirm/XGHAF7GK target=_blank rel=noopener role=button>View Certificate</a>
 </div>
 </div>
 </div>
 </div>
-<div class="container-fluid section-holder d-flex bg-white">
-<div class="container-fluid anchor pb-5 books-section" id=books>
-<h1 class=text-center>Books</h1>
-<div class="container d-flex-block">
-<h2>Read</h2>
-<style type=text/css media=screen>.gr_grid_container{}.gr_grid_book_container{float:left;width:98px;height:160px;padding:0;overflow:hidden}</style>
-<div id=gr_grid_widget_1618080246>
-<div class=gr_grid_container>
-<div class=gr_grid_book_container><a title="Atlas der Weltgeschichte" rel=nofollow href=https://www.goodreads.com/book/show/18349583-atlas-der-weltgeschichte><img alt="Atlas der Weltgeschichte" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1376943377l/18349583._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Effective Altruism Handbook" rel=nofollow href=https://www.goodreads.com/book/show/25433309-effective-altruism-handbook><img alt="Effective Altruism Handbook" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434645518l/25433309._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Chess Opening Names: The Fascinating & Entertaining History Behind The First Few Moves" rel=nofollow href=https://www.goodreads.com/book/show/35692981-chess-opening-names><img alt="Chess Opening Names: The Fascinating & Entertaining History Behind The First Few Moves" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500292488l/35692981._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Play Winning Chess" rel=nofollow href=https://www.goodreads.com/book/show/58146.Play_Winning_Chess><img alt="Play Winning Chess" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925433l/58146._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Theory and Reality: An Introduction to the Philosophy of Science" rel=nofollow href=https://www.goodreads.com/book/show/31931.Theory_and_Reality><img alt="Theory and Reality: An Introduction to the Philosophy of Science" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389387973l/31931._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Beethoven, Der einsame Revolutionär" rel=nofollow href=https://www.goodreads.com/book/show/23440993-beethoven-der-einsame-revolution-r><img alt="Beethoven, Der einsame Revolutionär" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414105781l/23440993._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Docker Deep Dive" rel=nofollow href=https://www.goodreads.com/book/show/36411996-docker-deep-dive><img alt="Docker Deep Dive" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507995630l/36411996._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Intro to Jazz Piano: Hal Leonard Keyboard Style Series" rel=nofollow href=https://www.goodreads.com/book/show/24097997-intro-to-jazz-piano><img alt="Intro to Jazz Piano: Hal Leonard Keyboard Style Series" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419601522l/24097997._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Pro Git: Second Edition" rel=nofollow href=https://www.goodreads.com/book/show/50346207-pro-git><img alt="Pro Git: Second Edition" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578387116l/50346207._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Concise Introduction to Tonal Harmony" rel=nofollow href=https://www.goodreads.com/book/show/26263913-concise-introduction-to-tonal-harmony><img alt="Concise Introduction to Tonal Harmony" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442843652l/26263913._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Investing Made Simple: Investing in Index Funds Explained in 100 Pages or Less" rel=nofollow href=https://www.goodreads.com/book/show/7132086-investing-made-simple><img alt="Investing Made Simple: Investing in Index Funds Explained in 100 Pages or Less" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397426734l/7132086._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Reinforcement Learning: An Introduction" rel=nofollow href=https://www.goodreads.com/book/show/739791.Reinforcement_Learning><img alt="Reinforcement Learning: An Introduction" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348086685l/739791._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Foundations of Programming Languages (Undergraduate Topics in Computer Science)" rel=nofollow href=https://www.goodreads.com/book/show/24933056-foundations-of-programming-languages><img alt="Foundations of Programming Languages" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423922028l/24933056._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Linux Administration: The Linux Operating System and Command Line Guide for Linux Administrators" rel=nofollow href=https://www.goodreads.com/book/show/28965488-linux-administration><img alt="Linux Administration: The Linux Operating System and Command Line Guide for Linux Administrators" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454980395l/28965488._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Linux for Beginners" rel=nofollow href=https://www.goodreads.com/book/show/20447117-linux-for-beginners><img alt="Linux for Beginners" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388963211l/20447117._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Command Line Kung Fu: Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners" rel=nofollow href=https://www.goodreads.com/book/show/21945897-command-line-kung-fu><img alt="Command Line Kung Fu: Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398613479l/21945897._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Eloquent JavaScript: A Modern Introduction to Programming" rel=nofollow href=https://www.goodreads.com/book/show/8910666-eloquent-javascript><img alt="Eloquent JavaScript: A Modern Introduction to Programming" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308260856l/8910666._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Shell Scripting: How to Automate Command Line Tasks Using Bash Scripting and Shell Programming" rel=nofollow href=https://www.goodreads.com/book/show/26632044-shell-scripting><img alt="Shell Scripting: How to Automate Command Line Tasks Using Bash Scripting and Shell Programming" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442523966l/26632044._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses" rel=nofollow href=https://www.goodreads.com/book/show/10127019-the-lean-startup><img alt="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333576876l/10127019._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Introduction to Networking: How the Internet Works" rel=nofollow href=https://www.goodreads.com/book/show/25616802-introduction-to-networking><img alt="Introduction to Networking: How the Internet Works" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1434305920l/25616802._SX98_.jpg></a>
-</div>
-</div>
-</div>
-<script src="https://www.goodreads.com/review/grid_widget/132521416.Books%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=200&order=d&shelf=read&sort=date_added&widget_id=1618080246" type=text/javascript></script>
-</div>
-<div class="container d-flex-block">
-<h2>Reading</h2>
-<style type=text/css media=screen>.gr_grid_container{}.gr_grid_book_container{float:left;width:98px;height:160px;padding:0;overflow:hidden}</style>
-<div id=gr_grid_widget_1618080287>
-<div class=gr_grid_container>
-<div class=gr_grid_book_container><a title="Pandolfini's Endgame Course: Basic Endgame Concepts Explained by America's Leading Chess Teacher" rel=nofollow href=https://www.goodreads.com/book/show/83340.Pandolfini_s_Endgame_Course><img alt="Pandolfini's Endgame Course: Basic Endgame Concepts Explained by America's Leading Chess Teacher" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360595067l/83340._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Winning Chess Strategies" rel=nofollow href=https://www.goodreads.com/book/show/85082.Winning_Chess_Strategies><img alt="Winning Chess Strategies" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328701711l/85082._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="The Oxford Dictionary of Philosophy" rel=nofollow href=https://www.goodreads.com/book/show/193548.The_Oxford_Dictionary_of_Philosophy><img alt="The Oxford Dictionary of Philosophy" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388629205l/193548._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Exploring Jazz Piano - Volume 1 (The Schott Pop Styles Series)" rel=nofollow href=https://www.goodreads.com/book/show/1103601.Exploring_Jazz_Piano_Volume_1><img alt="Exploring Jazz Piano - Volume 1" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348318534l/1103601._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Deep Reinforcement Learning in Action" rel=nofollow href=https://www.goodreads.com/book/show/50075895-deep-reinforcement-learning-in-action><img alt="Deep Reinforcement Learning in Action" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585300837l/50075895._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Reinforcement Learning and Optimal Control" rel=nofollow href=https://www.goodreads.com/book/show/45305753-reinforcement-learning-and-optimal-control><img alt="Reinforcement Learning and Optimal Control" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556258775l/45305753._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="The Essentials of Modern Software Engineering" rel=nofollow href=https://www.goodreads.com/book/show/51629636-the-essentials-of-modern-software-engineering><img alt="The Essentials of Modern Software Engineering" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563296235l/51629636._SX98_SY160_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="The Penguin History of the World" rel=nofollow href=https://www.goodreads.com/book/show/18925701-the-penguin-history-of-the-world><img alt="The Penguin History of the World" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475977973l/18925701._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Quantum Mechanics: The Theoretical Minimum (Theoretical Minimum #2)" rel=nofollow href=https://www.goodreads.com/book/show/18210750-quantum-mechanics><img alt="Quantum Mechanics: The Theoretical Minimum" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391609128l/18210750._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title=Neuroscience rel=nofollow href=https://www.goodreads.com/book/show/15939503-neuroscience><img alt=Neuroscience border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354428823l/15939503._SX98_.jpg></a>
-</div>
-<div class=gr_grid_book_container><a title="Code Complete" rel=nofollow href=https://www.goodreads.com/book/show/4845.Code_Complete><img alt="Code Complete" border=0 src=https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396837641l/4845._SX98_.jpg></a>
-</div>
-</div>
-</div>
-<script src="https://www.goodreads.com/review/grid_widget/132521416.pwenker's%20currently-reading%20book%20montage?cover_size=medium&hide_link=true&hide_title=true&num_books=200&order=d&shelf=currently-reading&sort=date_added&widget_id=1618080287" type=text/javascript></script>
 </div>
 </div>
 </div>
@@ -619,32 +740,31 @@ Artificial Intelligence
 <h5>Navigation</h5>
 <ul>
 <li class=nav-item>
-<a class=smooth-scroll href=#about>About</a>
+<a class=smooth-scroll href=https://pwenker.com#about>About</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#skills>Skills</a>
+<a class=smooth-scroll href=https://pwenker.com#skills>Skills</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#experiences>Experience</a>
+<a class=smooth-scroll href=https://pwenker.com#experiences>Experience</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#education>Education</a>
+<a class=smooth-scroll href=https://pwenker.com#education>Education</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#projects>Projects</a>
+<a class=smooth-scroll href=https://pwenker.com#projects>Projects</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=#recent-posts>Recent Posts</a>
-</li>
-<li class=nav-item>
-<a class=smooth-scroll href=#books>Books</a>
+<a class=smooth-scroll href=https://pwenker.com#accomplishments>Accomplishments</a>
 </li>
 </ul>
 </div>
 <div class="col-md-4 col-sm-12">
 <h5>Contact me:</h5>
 <ul>
-<li><span>Email: </span> <span>pwenker@posteo.de</span></li>
+<li><a href=mailto:pwenker@posteo.de target=_blank rel=noopener>
+<span><i class="fas fa-envelope"></i></span> <span>pwenker@posteo.de</span>
+</a></li>
 </ul>
 </div>
 </div>
@@ -653,25 +773,26 @@ Artificial Intelligence
 <div class=container>
 <div class="row text-left">
 <div class=col-md-4>
-<a id=theme href=https://github.com/hossainemruz/toha target=#>
-<img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png>
+<a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener>
+<img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
 Toha
 </a>
 </div>
 <div class="col-md-4 text-center">© 2020-2021 Copyright.</div>
 <div class="col-md-4 text-right">
-<a id=hugo href=https://gohugo.io/>Powered by
+<a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
 <img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
 </a>
 </div>
 </div>
 </div>
 </footer>
-<script src=/js/jquery-3.4.1.min.js></script>
-<script src=/js/popper.min.js></script>
-<script src=/js/bootstrap.min.js></script>
-<script src=/js/navbar.js></script>
-<script src=/js/main.js></script>
+<script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
+<script type=text/javascript src=/js/popper.min.js></script>
+<script type=text/javascript src=/js/bootstrap.min.js></script>
+<script type=text/javascript src=/js/navbar.js></script>
+<script type=text/javascript src=/js/plyr.js></script>
+<script type=text/javascript src=/js/main.js></script>
 <script src=/js/itype.min.js></script>
 <script src=/js/github-button.js></script>
 <script src=/js/home.js></script>
