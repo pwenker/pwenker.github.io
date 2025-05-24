@@ -173,3 +173,6 @@ markup:
 #   youtube:
 #     disabled: false
 #     privacyEnhanced: true
+caches:
+  images:
+    dir: :cacheDir/images
